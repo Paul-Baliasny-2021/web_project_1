@@ -1,3 +1,4 @@
+/* styles for the entire page */
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -7,20 +8,81 @@
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+    
 }
+
+/* styles for the "Header" section */
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* parameters for the header section */
+  position: relative;
+  display: flex;
+  background-color: #F2F2F2;
 }
+  /* parameters for the header section */
+
+  .logo {
+    position: absolute;
+    width: 154px;
+    height: 31px;
+    left: 64px;
+    top: 30px;
+  }
+
+  .header__title {
+    width: 730px;
+    margin-left: 64px;
+    align-self: center;
+    height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    z-index: 3;
+  }
+
+  .header__subtitle {
+    position: absolute;
+    width: 388px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    left: 64px;
+    bottom: 40px;
+    
+  }
+  .header__link {
+    position: absolute;
+    left: 64px;
+    bottom: 30px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
   height: 568px;
   width: 568px;
+  background-color: #2F80ED;
+  z-index: 1;
 }
+
+.header__main-illustration {
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  width: 756px;
+  height: 608px;
+  z-index: 2;
+
+}
+
 
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
