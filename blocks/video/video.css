@@ -1,0 +1,25 @@
+.video {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: visible;
+}
+
+.video__iframes {
+    margin: 50px auto -60px;
+    height: 316px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.video__iframe {
+    padding-right: 20px;
+    border: none;
+}
+
+.video__iframe:last-of-type {
+    padding: 0;
+}
