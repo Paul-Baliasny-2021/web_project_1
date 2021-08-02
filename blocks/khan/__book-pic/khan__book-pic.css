@@ -1,0 +1,11 @@
+.khan__book-pic {
+    margin: 0;
+    width: 620px;
+    height: 608px;
+    padding-right: 48px;
+    object-fit: cover;
+    object-position: top;
+    /* thanks for valuable hint. 
+    since we did not learn it yet I had to recalculate the image height according
+    to original image proportions, which is why you saw number not from the brief :) */
+}

@@ -9,13 +9,3 @@
     align-items: center;
     overflow: hidden;
 }
-
-.kaufman__triangle {
-    position: absolute;
-    width: 660px;
-    height: 636px;
-    z-index: 0;
-    right: -124px;
-    top: 0;
-    animation: rotation 20s linear infinite;
-}

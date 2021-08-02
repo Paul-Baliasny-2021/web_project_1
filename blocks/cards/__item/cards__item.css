@@ -1,0 +1,11 @@
+.cards__item {
+    width: 240px;
+    list-style: none;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 100px;
+}
+
+.cards__item:nth-of-type(3) {
+    margin: 0;
+}
